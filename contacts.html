@@ -8,43 +8,50 @@
     <title>Test Window</title>
 </head>
 <body>
-    <header style="background-image: url('images/header_header.jpg');">
-        <h1 style="text-align: center; font-family:verdana">How to reach me</h1>
+    <header>
+        <h1>How to reach me</h1>
     </header>
-        <a href="index.html">Home Page</a>
-        <a href="contacts.html ">Contact Page!</a>
-        <a href="about.html">About me!</a>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contacts.html">Contacts</a>
+   </div>
       </div>
       </div>
 
       <section>
-        <h2 style="text-align: left; font-family:verdana">If you have anything you need to ask message me here</h2>
-        <form style="text-align: left; color: orange;">
+        <div class="sectiontab">
+        <h2>If you have anything you need to ask message me here</h2>
+        <div class="sectiontab">
             <label>Name</label><br>
             <input type="text" id="name" name="fullname" placeholder="Your name and last name"> <br>
+            <label>Phone NR.</label><br>
+            <input type="tel" id="Phone" name="PhoneNumber" placeholder="Enter your phone number"> <br>
             <label>Email</label><br>
             <input type="email" id="email" name="email" placeholder="youremail@email.com"><br>
             <label>Subject</label><br>
             <input type="text" id="subject" name="subject" placeholder="Provide the subject"></input> <br>
             <label>Message</label><br>
             <textarea id="message" name="message" placeholder="Write your message"></textarea> <br>
-
+          </div>
         </form>
     </section>
 
-      <div class="how to reach out to me">
-        <h2 style="font-family:verdana">Or if you need to reach out to me directly. Here is my contact info </h2>
+      <div class="sectiontab">
+        <h2>Or if you need to reach out to me directly. Here is my contact info </h2>
       </div>
-      <div class="Email">
-        <p style="font-family:verdana">E-Mail: markuss.treide@accenture.com</p>
+      <div class="sectiontab">
+        <p>E-Mail: markuss.treide@accenture.com</p>
       </div>
-      <div class="Phone_Number">
-        <p style="font-family:verdana">Phone Number: +37125437468</p>
+      <div class="sectiontab">
+        <p>Phone Number: +37125437468</p>
       </div>
       
       <footer>
+        <div class="footer">
         <p>Accenture page</p>
         <p><a href="https://portal.accenture.com/#/">portal.accenture.com</a></p>
+        </div>
       </footer>
 </body>
 </html>

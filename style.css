@@ -1,43 +1,83 @@
-body {
-    background-color: orange
+
+
+/*This tab is used for customizing the header*/
+header{
+  background-image: url('images/header_header.jpg');
+  text-align: center; 
+  font-family:verdana;
+  color: #d01db7;
 }
-.header-text {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    color:beige;
-    text-align: center;
-    font-size: medium;
-    
+
+/*changes fonts for all the texts*/
+body{
+  font-family:sans-serif;
+  background-color: #f13b3b;
 }
+
+
+
+
+
+/*a custom navigation bar for better visuals*/
+.topnav{
+  color: orange;
+  text-align: center;
+  background-color: #d9d31c;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-right: 20px;
+}
+
+/*a custom navigation bar for better visuals*/
 .topnav a {
-   
-    float: center;
-    color: #f2f2f2;
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    text-decoration:none;
-    font-size: 17px;
-    
-  }
+  float: center;
+  color: blue;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*when hovering around the tab will appear light green*/
+.topnav a:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+/*centers the gif in the main page*/
+section{  
+  text-align: center;    
+}
+
+/*custom background box along with a different font for the sidebar*/
+.sidebar{
+  font-family: monospace;
+  float: right; color:yellow;
+  background-color: #db861f;
+}
+
+/*changes the style for the article*/
+.article{
+  color: silver;
+  font-weight: bold;
+}
+
+/*changed the color and placement of footer*/
+.footer{
+  text-align: center;
+  background-color: #d9d31c;
+  font-weight: bolder ;
   
-  .topnav a:hover {
-    background-color: red;
-    color: black;
-  }
+}
+
+/*custom colors for the messaging section of "About me"*/
+.sectiontab{
+  text-align: center; color: #d0dbdf;
+  font-weight: bolder;
+
+}
   
-  .topnav a.active {
-    background-color:red;
-    color: white;
-  }
-  
-  .topnav a:focus {
-    background-color:red;
-    color: white;
-  }
 
 
