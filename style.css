@@ -1,9 +1,8 @@
 
-
-
 /*Styled the header*/
 header{
-  background-color: #db861f;
+  background-color: #e53170;
+  font-size: 30px;
   margin: 10px;
   padding: 10px;
   text-align: center;
@@ -15,14 +14,14 @@ header{
 /*Styled fonts for all texts*/
 body{
   font-family:sans-serif;
-  background-color: #f13b3b;
+  background-color: #0f0e17;
 }
 
 /*Styled the navigation bar*/
 .topnav{
-  color: orange;
+  color: #e53170;
   text-align: center;
-  background-color: #d9d31c;
+  background-color: #e53170;
   font-weight: bolder;
   margin: 20px;
   padding: 17px;
@@ -32,7 +31,7 @@ body{
 /*Styled the navigation bar*/
 .topnav a {
   float: center;
-  color: blue;
+  color: #fffffe;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
@@ -41,39 +40,47 @@ body{
 
 /*added a style for when you hover over the links in the navbar*/
 .topnav a:hover {
-  background-color: greenyellow;
-  color: palevioletred;
+  background-color: #ff8906;
+  color: #fffffe;
 }
 
 /*styles the gif*/
 section{  
-  text-align: center;    
+  text-align: center; 
+  background-color: transparent;   
 }
 
 /**/
 .sidebar{
   font-family: monospace;
-  float: right; color:yellow;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float:right;
   background-color: #db861f;
+  color:yellow;
+  font-size: 20px;
 }
 
 /*added style for articles*/
 .article{
-  color: whitesmoke;
+  color: #a7a9be;
   font-weight: bold;
 }
 
 /*added style to the footer*/
 .footer{
   text-align: center;
-  background-color: #d9d31c;
+  background-color: #e53170;
   font-weight: bolder ;
+  display: flex;
+  flex-direction: column;
   
 }
 
 /*added a style for when you hover over the link to the Accenture page in the footer*/
 footer a:hover{
-  background-color: greenyellow;
+  background-color: #ff8906;
 }
 
 /*custom colors for the messaging section of "About me"*/
