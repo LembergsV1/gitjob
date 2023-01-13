@@ -1,36 +1,35 @@
 
 
-/*This tab is used for customizing the header*/
+
+/*Styled the header*/
 header{
-  background-image: url('images/header_header.jpg');
-  text-align: center; 
-  font-family:verdana;
-  color: #d01db7;
+  background-color: #db861f;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
-/*changes fonts for all the texts*/
+/*Styled fonts for all texts*/
 body{
   font-family:sans-serif;
   background-color: #f13b3b;
 }
 
-
-
-
-
-/*a custom navigation bar for better visuals*/
+/*Styled the navigation bar*/
 .topnav{
   color: orange;
   text-align: center;
   background-color: #d9d31c;
   font-weight: bolder;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-right: 20px;
+  margin: 20px;
+  padding: 17px;
+  border-style: none;
 }
 
-/*a custom navigation bar for better visuals*/
+/*Styled the navigation bar*/
 .topnav a {
   float: center;
   color: blue;
@@ -40,31 +39,31 @@ body{
   font-size: 17px;
 }
 
-/*when hovering around the tab will appear light green*/
+/*added a style for when you hover over the links in the navbar*/
 .topnav a:hover {
   background-color: greenyellow;
-  color: black;
+  color: palevioletred;
 }
 
-/*centers the gif in the main page*/
+/*styles the gif*/
 section{  
   text-align: center;    
 }
 
-/*custom background box along with a different font for the sidebar*/
+/**/
 .sidebar{
   font-family: monospace;
   float: right; color:yellow;
   background-color: #db861f;
 }
 
-/*changes the style for the article*/
+/*added style for articles*/
 .article{
-  color: silver;
+  color: whitesmoke;
   font-weight: bold;
 }
 
-/*changed the color and placement of footer*/
+/*added style to the footer*/
 .footer{
   text-align: center;
   background-color: #d9d31c;
@@ -72,12 +71,24 @@ section{
   
 }
 
+/*added a style for when you hover over the link to the Accenture page in the footer*/
+footer a:hover{
+  background-color: greenyellow;
+}
+
 /*custom colors for the messaging section of "About me"*/
 .sectiontab{
-  text-align: center; color: #d0dbdf;
+  text-align: center; color: white;
   font-weight: bolder;
 
 }
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+.textarea {
+  white-space: revert;
+}
+
+
   
 
 
