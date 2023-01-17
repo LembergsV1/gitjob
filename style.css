@@ -1,3 +1,8 @@
+/*styled HTML*/
+html {
+  height: 100%;
+}
+
 /*
 Styled the Header Tab
 */
@@ -13,22 +18,27 @@ Styled the Header Tab
 }
 
 /*
-Change's entire body tag
+Styled the body
 */
 body {
   font-family:sans-serif;
   background-color: #0f0e17;
+
+  
+  min-height: 100%;
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 40px);
+  font-weight: bolder;
   
 }
+
+
 /*
 Styled the Navigation Bar 
 */
 
 .main{
-  flex-grow: 1;
+  flex: 1;
 }
 
 .topnav {
@@ -77,30 +87,38 @@ Styled the Side-Bar
 margin-right: 30px;
 float: right; 
 color:whitesmoke;
-
+border: 5px solid whitesmoke;
 
 }
 .sidebar h1 {
 font-weight: bolder;
 text-decoration: none;
 font-size: 30px;
+
 }
 .sidebar p{
-font-weight: bolder;
 text-decoration: underline;
 }
+
+
 /*
 Styled the article tab
 */
 .article{
-  color: white;
-  font-weight: bolder;
-  padding: 20px;
-
-  
+  text-align: left;
+}
+ul {
+  font-size: medium;
+  list-style-type: circle;
+  display: list-item;
+  margin-left: 3em; 
 }
 
-
+li {
+  list-style-type: square;
+  margin-left: 1em;
+  color: whitesmoke;
+  }
 
 /*
 Styled the section tab
@@ -118,15 +136,16 @@ Styled the Footer
 
 .footer {
   background-color: #e53170;
-  font-size: 10px;
+  font-size: 13px;
   margin: 10px;
-  padding: 5px;
   text-align: center;
   color: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   margin-top: auto;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 /*custom colors for the messaging section of "About me"*/
