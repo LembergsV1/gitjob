@@ -1,6 +1,7 @@
-
-/*Styled the header*/
-header{
+/*
+Styled the Header Tab
+*/
+.header {
   background-color: #e53170;
   font-size: 30px;
   margin: 10px;
@@ -11,14 +12,26 @@ header{
   font-weight: bolder;
 }
 
-/*Styled fonts for all texts*/
-body{
+/*
+Change's entire body tag
+*/
+body {
   font-family:sans-serif;
   background-color: #0f0e17;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 40px);
+  
+}
+/*
+Styled the Navigation Bar 
+*/
+
+.main{
+  flex-grow: 1;
 }
 
-/*Styled the navigation bar*/
-.topnav{
+.topnav {
   color: #e53170;
   text-align: center;
   background-color: #e53170;
@@ -28,59 +41,92 @@ body{
   border-style: none;
 }
 
-/*Styled the navigation bar*/
+/* Style the links inside the navigation bar */
 .topnav a {
   float: center;
-  color: #fffffe;
+  color: whitesmoke;
   text-align: center;
-  padding: 20px 20px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-/*added a style for when you hover over the links in the navbar*/
+/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ff8906;
-  color: #fffffe;
+  background-color: palevioletred;
+  color: black;
 }
 
-/*styles the gif*/
-section{  
-  text-align: center; 
-  background-color: transparent;   
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: purple;
+  color: white;
 }
 
-/**/
-.sidebar{
-  font-family: monospace;
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float:right;
-  background-color: #db861f;
-  color:yellow;
-  font-size: 20px;
-}
-
-/*added style for articles*/
-.article{
-  color: #a7a9be;
-  font-weight: bold;
-}
-
-/*added style to the footer*/
-.footer{
+.topnav p {
   text-align: center;
-  background-color: #e53170;
-  font-weight: bolder ;
-  display: flex;
-  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*
+Styled the Side-Bar
+*/
+.sidebar{
+margin-right: 30px;
+float: right; 
+color:whitesmoke;
+
+
+}
+.sidebar h1 {
+font-weight: bolder;
+text-decoration: none;
+font-size: 30px;
+}
+.sidebar p{
+font-weight: bolder;
+text-decoration: underline;
+}
+/*
+Styled the article tab
+*/
+.article{
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+
   
 }
 
-/*added a style for when you hover over the link to the Accenture page in the footer*/
-footer a:hover{
-  background-color: #ff8906;
+
+
+/*
+Styled the section tab
+*/
+
+.section{
+text-align: center;
+font-weight: bolder;
+color: #e53170;
+}
+
+/*
+Styled the Footer
+*/
+
+.footer {
+  background-color: #e53170;
+  font-size: 10px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin-top: auto;
+
 }
 
 /*custom colors for the messaging section of "About me"*/
@@ -89,13 +135,3 @@ footer a:hover{
   font-weight: bolder;
 
 }
-
-/* Revert the 'white-space' property for textarea elements on Safari */
-.textarea {
-  white-space: revert;
-}
-
-
-  
-
-
